@@ -2,7 +2,7 @@
 A tutorial for making a personal research website with Github and Hugo. Hugo provides static website themes (ex: with stable content that doesn't change unless you update). 
 
 
-Acknowledgements: Hansen Johnson and https://4bes.nl/2021/08/29/create-a-website-with-hugo-and-github-pages/
+Acknowledgements: Hansen Johnson (https://github.com/hansenjohnson/hugo-demo) and https://4bes.nl/2021/08/29/create-a-website-with-hugo-and-github-pages/
 
 # Why make a research website as an academic?
 - share your work
