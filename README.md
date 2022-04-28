@@ -1,4 +1,4 @@
-# ICG_TipsTricks_PersonalResearchWebsite
+# Building a Personal Research Website with Github and Hugo
 A tutorial for making a personal research website with Github and Hugo. Hugo provides static website themes (ex: with stable content that doesn't change unless you update). 
 
 
@@ -28,11 +28,28 @@ alburycatalina.github.io/me
 
 
 # Step 1: Setup
-install git
-install hugo : https://gohugo.io/getting-started/installing/
-  With homebrew: https://brew.sh/ (if work with python or ruby this may be familiar)
+1. Install git on your machine: https://git-scm.com/book/en/v2/Getting-Started-Installing-Git
+
+Git is a kind of SCM (source code management) software. You can use it to track and finalize changes in code. Github is a place to store this version control information on the internet. Git is installed by default on most Mac and Linux machines. 
+
+
+
+
+2. Install hugo : https://gohugo.io/getting-started/installing/. This can be done in a few ways, but an easy way is via homebrew if using a mac. 
   
-install VS code: https://code.visualstudio.com/
+  With homebrew: https://brew.sh/ (if work with python or ruby this may be familiar. Homebrew is a package manager)
+  
+  
+  Install homebrew: /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+  
+  `brew install hugo`
+  
+  
+3. Install VS code: https://code.visualstudio.com/
+
+VS code is an IDE (interactive development environment) that has lots of cool tools to help you manage your website. 
+
+
 
 
 # Step 2: Make a new github repo 
