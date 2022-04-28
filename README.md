@@ -7,7 +7,7 @@ Acknowledgements: This repo was adapted from [Hansen Johnson's Hugo Demo page](h
 # Why make a research website as an academic?
 - share your work
 - connect with others
-- aggregate your information in one place
+- aggregate your projects, publications, and other information in one place
 
 
 # How?
