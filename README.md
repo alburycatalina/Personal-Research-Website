@@ -2,7 +2,7 @@
 A tutorial for making a personal research website with Github and Hugo. Hugo provides static website themes (ex: with stable content that doesn't change unless you update). 
 
 
-Acknowledgements: Hansen Johnson (https://github.com/hansenjohnson/hugo-demo) and https://4bes.nl/2021/08/29/create-a-website-with-hugo-and-github-pages/
+Acknowledgements: This repo was adapted from [Hansen Johnson's Hugo Demo page](https://github.com/hansenjohnson/hugo-demo) with supplementation from  [4BES.NL](https://4bes.nl/2021/08/29/create-a-website-with-hugo-and-github-pages/). 
 
 # Why make a research website as an academic?
 - share your work
@@ -40,7 +40,7 @@ Git is a kind of SCM (source code management) software. You can use it to track 
   With homebrew: https://brew.sh/ (if work with python or ruby this may be familiar. Homebrew is a package manager)
   
   
-  Install homebrew: /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+  Install homebrew: `/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"` in terminal
   
   `brew install hugo`
   
@@ -64,7 +64,7 @@ Make github repo (main.github.io or main/thing.github.io)
 
 # 
 
-Hugo server -D
+`Hugo server -D`
 
 
 
