@@ -44,6 +44,8 @@ Git is a kind of SCM (source code management) software. You can use it to track 
   
   `brew install hugo`
   
+  You will then be prompted to enter a few more commands to add HomeBrew to your PATH. This makes them available in your terminal. These are slighlty different per computer, so copy and paste the ones that you are prompted with. 
+  
   
 3. Install VS code: https://code.visualstudio.com/
 
@@ -51,18 +53,36 @@ VS code is an IDE (interactive development environment) that has lots of cool to
 
 
 
+# Step 2: Make a Site and choose a Theme
+
+Make a folder for your website and change the terminal directory to it.
+
+`cd ~/Website`
+
+Then, make a new site with hugo in a new directory:
+
+`hugo new site personal_website`
+
+Themes: https://themes.gohugo.io/
+
+Try: https://themes.gohugo.io/themes/hugo-theme-jane/
+
+
+
 
 # Step 2: Make a new github repo 
 
-Make github account if not have one already
-Make github repo (main.github.io or main/thing.github.io)
+Make a github repo (main.github.io or main/thing.github.io)
 
 
 
 # 
 
 
-# 
+# Step 
+
+Edit config.toml for website address. Static folder usually holds pictures etc. 
+
 
 `Hugo server -D`
 
