@@ -14,9 +14,9 @@ Acknowledgements: This repo was adapted from [Hansen Johnson's Hugo Demo page](h
 Make use of one of Hugo’s free templates and insert your content (contact information, project links, blogs)
 Host on Github Pages and push updates as needed
 
-# Example
+# Example: My Hugo Website via [Avicennia theme(https://github.com/hadisinaee/avicenna)
 
-alburycatalina.github.io/me
+[alburycatalina.github.io/me](alburycatalina.github.io/me)
 
 # Let's Get Started. You will need:
 - Internet connection
