@@ -21,7 +21,7 @@ alburycatalina.github.io/me
 # Let's Get Started. You will need:
 - Internet connection
 - Github account and git
-- Homebrew package manager (mac)
+- Hugo
 - VSCode
 - A browser to view your site in construction
 
