@@ -2,7 +2,7 @@
 This repository contains a tutorial for making a personal research website with Github and Hugo. Hugo is a framwork that provides static website themes. A static website hosts stable content that doesn't change unless you update it.
 
 ## Acknowledgements: 
-This repository was adapted from [Hansen Johnson's Hugo Demo page](https://github.com/hansenjohnson/hugo-demo) with supplementation from  [4BES.NL](https://4bes.nl/2021/08/29/create-a-website-with-hugo-and-github-pages/). 
+This repository was adapted from [Hansen Johnson's Hugo Demo repo](https://github.com/hansenjohnson/hugo-demo) with supplementation from  [4BES.NL](https://4bes.nl/2021/08/29/create-a-website-with-hugo-and-github-pages/). 
 
 # Why make a research website as an academic?
 - Share your work
@@ -11,10 +11,10 @@ This repository was adapted from [Hansen Johnson's Hugo Demo page](https://githu
 
 
 ## How?
-Make use of one of Hugo’s free templates and insert your content (contact information, project links, blogs). Then, host your newly-minted side on Github Pages and push updates with Git as needed. 
+Make use of one of Hugo’s free templates and insert your content (contact information, project links, blogs). Then, host your newly-minted site on Github Pages and push updates with Git as needed. 
 
 
-## Example: My Hugo Website via the [Avicennia theme](https://github.com/hadisinaee/avicenna)
+# Example: My Hugo Website via the [Avicennia theme](https://github.com/hadisinaee/avicenna)
 
 [alburycatalina.github.io/me](alburycatalina.github.io/me)
 
@@ -26,7 +26,7 @@ Make use of one of Hugo’s free templates and insert your content (contact info
 - A browser to view your site in construction
 
 
-## Step 1: Setup
+# Step 1: Setup
 1. Install git on your machine: https://git-scm.com/book/en/v2/Getting-Started-Installing-Git
 
 Git is a kind of SCM (source code management) software. You can use it to track and finalize changes in code. Github is a place to store this version control information on the internet. Git is installed by default on most Mac and Linux machines. 
@@ -48,7 +48,7 @@ VS code is an IDE (interactive development environment) that has lots of cool to
 
 
 
-## Step 2: Make a Site and choose a Theme
+# Step 2: Make a Site and choose a Theme
 
 Make a folder for your website and change the terminal directory to it.
 
@@ -65,20 +65,20 @@ Try: https://themes.gohugo.io/themes/hugo-theme-jane/
 
 
 
-## Step 3: Make a new github repo 
+# Step 3: Make a new github repo 
 
 Make a github repo (main.github.io or main/thing.github.io)
 
 
 
 
-## Step 4: Edit Template
+# Step 4: Edit Template
 
 Edit config.toml for website address. Static folder usually holds pictures etc. 
 
 
 `Hugo server -D`
 
-## Step 5: Commit & Publish
+# Step 5: Commit & Publish
 
 
