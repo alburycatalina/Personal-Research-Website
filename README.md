@@ -1,5 +1,5 @@
 # Building a Personal Research Website with Github and Hugo
-This repository contains a tutorial for making a personal research website with Github and Hugo. Hugo is a framework that provides static [^1] website themes. This method is great because Hugo website are (1) free and customizable and (2) come together suprisingly quickly. Hosting a personal research website is a great spot to present yourself professionally as a scientist, aggregate your contact information and projects, and network. 
+This repository contains a tutorial for making a personal research website with Github and Hugo. Hugo is a framework that provides static [^1] website themes. This method is great because Hugo website are (1) free and customizable and (2) come together suprisingly quickly. Hosting a personal research website is a great spot to present yourself professionally as a scientist, aggregate your contact information/projects, and network with potential collaborators. 
 
 [^1]: Static websites host stable content that doesn't change unless you update it.
 
@@ -10,8 +10,9 @@ This repository was adapted from [Hansen Johnson's Hugo Demo repo](https://githu
 
 # Why make a research website as an academic?
 - Share your work
-- Connect with potential collaborators
 - Aggregate information (publications, resources, contact info) in one place
+- Make yourself easy to find
+- Connect with potential collaborators!
 
 
 # How?
@@ -52,15 +53,15 @@ Git is a kind of SCM (source code management) software. You can use it to track 
 VS code is an IDE (interactive development environment) that has lots of cool tools to help you manage your website. You can navigate files and push directly to Github if you like. 
 
 
-# Step 2: Make a new github repo 
+# Step 2: Make a New Github Repository ("repo") 
 
-1. Make a github repo to host your site
+**1. Make a github repo to host your site**
 
 You have two options for the URL that your website will be hosted under: either (your username).github.io or (your username).github.io/(repository name). Either is great depending on your usage, but let's try out hosting via your main URL for now. 
   
  Name the new repository (your username).github.io. You should tick the "add a README file" box and select whether your repository will be public or private (private repos are restricted to Github pro, which available at no cost to students). 
  
-2. Clone the Repo
+**2. Clone the Repo**
 
 Once you've created the repository, you can [clone it to your computer](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository) with command line. This creates a local copy of the repo on your computer. 
  
@@ -95,12 +96,15 @@ From Cactus' info page, we can use the following code to add the theme to our we
 `git clone https://github.com/monkeyWzr/hugo-theme-cactus.git themes/cactus`
 
 
-
 # Step 4: Edit Theme & Preview
 
-Most sites will allow most changes to be done on the `config.toml` file. It is at least mandatory that you change the base URL to the URL of your site (ex: (your username).github.io). 
 
-Let's update this in the `config.toml` file, along with changing the main page title and description. Save the `config.toml` when your changes are complete. 
+Most sites will allow most significant changes to be done in the `config.toml` file.
+In the `config.toml` file, you will need to change the publishDir command to docs, as in the following line. It is set by default to public by default. 
+
+`publishDir = "docs"`
+
+You will also want to change the base URL to the URL of your site (ex: (your username).github.io). Let's also update this in the `config.toml` file, along with changing the main page title and description. Save the `config.toml` when your changes are complete. 
 
 Note: The "static" folder usually holds photos and files for uploading. 
 
@@ -112,9 +116,9 @@ The return will be a localhost URL, which you can preview in your browser.
 
 # Step 5: Commit & Publish
 
-When the website is complete, host it on your Github page and share the link to your friends, family, colleagues, and mortal enemies. 
+When the website is complete, host it on your Github page and share the link to your friends, family, colleagues, and enemies. 
 
-In the Github repo, go to Settings > Pages > Change "Source" to "Main." If done correctly, you should get a message along the lines of "Your site is ready to be published at https://username.github.io. Successs!
+In the Github repo, go to Settings > Pages > Change "Source" to "Main." If done correctly, you should get a message along the lines of "Your site is ready to be published at https://username.github.io. **Successs!**
 
 Finalize the page by simply running `hugo` in your website directory. 
 
