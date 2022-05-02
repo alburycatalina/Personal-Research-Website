@@ -1,5 +1,7 @@
 # Building a Personal Research Website with Github and Hugo
-This repository contains a tutorial for making a personal research website with Github and Hugo. Hugo is a framwork that provides static website themes. A static website hosts stable content that doesn't change unless you update it.
+This repository contains a tutorial for making a personal research website with Github and Hugo. Hugo is a framwork that provides static [^1] website themes. 
+
+[^1]: Static websites host stable content that doesn't change unless you update it.
 
 ## Acknowledgements: 
 This repository was adapted from [Hansen Johnson's Hugo Demo repo](https://github.com/hansenjohnson/hugo-demo) with supplementation from  [4BES.NL](https://4bes.nl/2021/08/29/create-a-website-with-hugo-and-github-pages/). 
