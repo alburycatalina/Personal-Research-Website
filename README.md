@@ -54,17 +54,23 @@ VS code is an IDE (interactive development environment) that has lots of cool to
 
 # Step 2: Make a new github repo 
 
-Make a github repo to host your site. You have two options for the URL that your website will be hosted under: either (your username).github.io or (your username).github.io/(repository name). Either is great depending on your usage, but let's try out hosting via your main URL for now. 
+1. Make a github repo to host your site
+
+You have two options for the URL that your website will be hosted under: either (your username).github.io or (your username).github.io/(repository name). Either is great depending on your usage, but let's try out hosting via your main URL for now. 
   
  Name the new repository (your username).github.io. You should tick the "add a README file" box and select whether your repository will be public or private (private repos are restricted to Github pro, which available at no cost to students). 
  
- Once you've created the repository, you can [clone it to your computer](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository) with command line. This creates a local copy of the repo on your computer. 
+2. Clone the Repo
+
+Once you've created the repository, you can [clone it to your computer](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository) with command line. This creates a local copy of the repo on your computer. 
  
  Hit the green code button in the top right corner of the github repository and copy the link to clone with HTTPS.
  
-Make a folder for your website and change the terminal directory to it.
+ Make a folder for your website (ex: a folder called "Personal_Website" and change the terminal directory to it.
  
- In terminal, type `git clone` and paste in the copied URL. 
+ In terminal, type `cd ~/Personal_Website`
+ 
+ Type `git clone` and paste in the copied URL from before. 
  
  For example: `$ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY`
  
@@ -74,31 +80,56 @@ Make a folder for your website and change the terminal directory to it.
   
  # Step 3: Make a Site and choose a Theme
 
-Make a folder for your website and change the terminal directory to it.
+Still in your "Personal_Website" folder, make a new site with Hugo. 
 
-`cd ~/Website`
-
-Then, make a new site with hugo in a new directory:
-
-`hugo new site personal-website`
-
-Hugo has a wealth of user created website themes that you can browse [here](https://themes.gohugo.io/). 
-
-Let's try out the [Jane theme](https://themes.gohugo.io/themes/hugo-theme-jane/) as an example. 
+In terminal, paste `hugo new site .\ --force`. You will see that hugo creates a file structure with folders named things like "static", "layout" and more. There will also be a file named `config.toml` which will be important soon. 
 
 
 
+Hugo has a wealth of user created website themes that you can browse [here](https://themes.gohugo.io/). Most come with great guides on how to use them. 
+
+Let's try out the [Cactus theme](https://themes.gohugo.io/themes/hugo-theme-cactus/) as an example. Head to the link, click the yellow download button. This will take you to the theme's github page with instructions. 
+
+From Cactus' info page, we can use the following code to add the theme to our website:
+
+`git clone https://github.com/monkeyWzr/hugo-theme-cactus.git themes/cactus`
 
 
 
+# Step 4: Edit Theme & Preview
 
-# Step 4: Edit Template
+Most sites will allow most changes to be done on the `config.toml` file. It is at least mandatory that you change the base URL to the URL of your site (ex: (your username).github.io). 
 
-Edit config.toml for website address. Static folder usually holds pictures etc. 
+Let's update this in the `config.toml` file, along with changing the main page title and description. Save the `config.toml` when your changes are complete. 
 
+Note: The "static" folder usually holds photos and files for uploading. 
 
-`Hugo server -D`
+Tip: For quick editing, identify which aspect of text you'd like to change and cmd+F the text in the config.toml file to identify it and change it. 
+
+You can see what the site looks like locally by running  `Hugo server -D`
+
+The return will be a localhost URL, which you can preview in your browser. 
 
 # Step 5: Commit & Publish
+
+When the website is complete, host it on your Github page and share the link to your friends, family, colleagues, and mortal enemies. 
+
+In the Github repo, go to Settings > Pages > Change "Source" to "Main." If done correctly, you should get a message along the lines of "Your site is ready to be published at https://username.github.io. Successs!
+
+Finalize the page by simply running `hugo` in your website directory. 
+
+It can take 5-10 minutes for published changes in your Github repo to be reflected in the live page. 
+
+In the future, edit website files and use the follwoing commands to push and commit website edits to the directory. 
+
+`git commit -A`
+`git push -u origin master`
+
+
+
+
+
+
+
 
 
