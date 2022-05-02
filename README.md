@@ -80,11 +80,11 @@ Make a folder for your website and change the terminal directory to it.
 
 Then, make a new site with hugo in a new directory:
 
-`hugo new site personal_website`
+`hugo new site personal-website`
 
-Themes: https://themes.gohugo.io/
+Hugo has a wealth of user created website themes that you can browse [here](https://themes.gohugo.io/). 
 
-Try: https://themes.gohugo.io/themes/hugo-theme-jane/
+Let's try out the [Jane theme](https://themes.gohugo.io/themes/hugo-theme-jane/) as an example. 
 
 
 
