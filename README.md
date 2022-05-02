@@ -49,8 +49,17 @@ Git is a kind of SCM (source code management) software. You can use it to track 
 VS code is an IDE (interactive development environment) that has lots of cool tools to help you manage your website. You can navigate files and push directly to Github if you like. 
 
 
+# Step 2: Make a new github repo 
 
-# Step 2: Make a Site and choose a Theme
+Make a github repo to host your site. You have two options for the URL that your website will be hosted under: either (your username).github.io or (your username).github.io/(repository name). Either is great depending on your usage, but let's try out hosting via your main URL for now. 
+  
+ Name the new repository (your username).github.io. You should tick the "add a README file" box and select whether your repository will be public or private (private repos are restricted to Github pro, which available at no cost to students). 
+ 
+ Once you've created the repository, you can clone it to your computer with command line. 
+  
+  
+  
+ # Step 3: Make a Site and choose a Theme
 
 Make a folder for your website and change the terminal directory to it.
 
@@ -66,16 +75,6 @@ Try: https://themes.gohugo.io/themes/hugo-theme-jane/
 
 
 
-
-# Step 3: Make a new github repo 
-
-Make a github repo to host your site. You have two options for the URL that your website will be hosted under: either <username>.github.io or <username>.github.io/<repository-name>. Either is great depending on your usage, but let's try out hosting via your main URL for now. 
-  
-  Name the new repository <username>.github.io. 
-  
-  
-  
-  
 
 
 
