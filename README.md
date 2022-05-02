@@ -33,14 +33,13 @@ Git is a kind of SCM (source code management) software. You can use it to track 
 
 2. Install hugo : https://gohugo.io/getting-started/installing/. This can be done in a few ways, but an easy way is via homebrew if using a mac. 
   
-  With homebrew: https://brew.sh/ (if work with python or ruby this may be familiar. Homebrew is a package manager)
+  With homebrew: https://brew.sh/. If you have experience working with python or ruby homebrew may be familiar. Homebrew is a package manager used to help out when installing software. 
   
+  Install homebrew by pasting `/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"` in the terminal.
   
-  Install homebrew: `/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"` in terminal
+  Then, use:`brew install hugo`
   
-  `brew install hugo`
-  
-  You will then be prompted to enter a few more commands to add HomeBrew to your PATH. This makes them available in your terminal. These are slighlty different per computer, so copy and paste the ones that you are prompted with. 
+  You will then be prompted to enter a few more commands to add HomeBrew to your PATH. This makes them available in your terminal. These are slighlty different per computer, so copy and paste the commands that you are prompted with. 
   
   
 3. Install VS code: https://code.visualstudio.com/
