@@ -1,5 +1,5 @@
 # Building a Personal Research Website with Github and Hugo
-This repository contains a tutorial for making a personal research website with Github and Hugo. Hugo is a framework that provides static [^1] website themes. This method is great because Hugo website are (1) free and customizable and (2) come together suprisingly quickly. Hosting a personal research website is a great spot to present yourself professionally as a scientist, aggregate your contact information/projects, and network with potential collaborators. 
+This repository contains a tutorial for making a personal research website with Github and Hugo. Hugo is a framework that provides static [^1] website themes. This method is great because Hugo website are (1) free and customizable and (2) come together suprisingly quickly. Hosting a personal research website is a great spot to present yourself professionally as a scientist, aggregate your contact information, and network with potential collaborators. 
 
 [^1]: Static websites host stable content that doesn't change unless you update it.
 
@@ -12,7 +12,7 @@ This repository was adapted from [Hansen Johnson's Hugo Demo repo](https://githu
 - Share your work
 - Aggregate information (publications, resources, contact info) in one place
 - Make yourself easy to find
-- Connect with potential collaborators!
+- Connect with potential collaborators
 
 
 # How?
@@ -33,27 +33,27 @@ Make use of one of Hugo’s free templates and insert your content (contact info
 
 
 # Step 1: Setup
-1. [Install git on your machine](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
+**1. [Install git on your machine](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)**
 
 Git is a kind of SCM (source code management) software. You can use it to track and finalize changes in code. Github is a place to store this version control information on the internet. Git is installed by default on most Mac and Linux machines. 
 
-2. [Install hugo](https://gohugo.io/getting-started/installing/). This can be done in a few ways, but an easy way is via Homebrew if using a Mac. 
-  
-  With homebrew: https://brew.sh/. If you have experience working with python or ruby, Homebrew may be familiar. It's a package manager used to help out when installing software. 
-  
-  Install homebrew by pasting `/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"` in the terminal.
-  
-  Then, use:`brew install hugo`
-  
-  You will then be prompted to enter a few more commands to add HomeBrew to your PATH. This makes them available in your terminal. These are slighlty different per computer, so copy and paste the commands that you are prompted with. 
-  
-  
-3. [Install VS code](https://code.visualstudio.com/)
+**2. [Install hugo](https://gohugo.io/getting-started/installing/).**
 
-VS code is an IDE (interactive development environment) that has lots of cool tools to help you manage your website. You can navigate files and push directly to Github if you like. 
+This can be done in a few ways, but an easy way is via [Homebrew](https://brew.sh/) if using a Mac. If you have experience working with python or ruby, Homebrew may be familiar. It's a package manager used to help out when installing software. 
+
+Install homebrew by pasting `/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"` in the terminal.
+  
+Then, use:`brew install hugo`
+  
+You will then be prompted to enter a few more commands to add HomeBrew to your PATH. This makes them available in your terminal. These are slighlty different per computer, so copy and paste the commands that you are prompted with. 
+  
+  
+**3. [Install VS code](https://code.visualstudio.com/)**
+
+VS code is an IDE (interactive development environment) that has lots of cool tools to help you manage your website. You can navigate files and push directly to Github if you like. Visit their website link above and download the desktop software. 
 
 
-# Step 2: Make a New Github Repository ("repo") 
+# Step 2: Make a New Github Repository (AKA "repo") 
 
 **1. Make a github repo to host your site**
 
