@@ -22,20 +22,20 @@ Make use of one of Hugo’s free templates and insert your content (contact info
 
 # Let's Get Started. You will need:
 - Internet connection
-- Github account and git
+- [Github account](https://github.com/) and git
 - Hugo
 - VSCode IDE
 - A browser to view your site in construction
 
 
 # Step 1: Setup
-1. Install git on your machine: https://git-scm.com/book/en/v2/Getting-Started-Installing-Git
+1. [Install git on your machine](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
 
 Git is a kind of SCM (source code management) software. You can use it to track and finalize changes in code. Github is a place to store this version control information on the internet. Git is installed by default on most Mac and Linux machines. 
 
-2. Install hugo : https://gohugo.io/getting-started/installing/. This can be done in a few ways, but an easy way is via homebrew if using a mac. 
+2. [Install hugo](https://gohugo.io/getting-started/installing/). This can be done in a few ways, but an easy way is via homebrew if using a mac. 
   
-  With homebrew: https://brew.sh/. If you have experience working with python or ruby homebrew may be familiar. Homebrew is a package manager used to help out when installing software. 
+  With homebrew: https://brew.sh/. If you have experience working with python or ruby, Homebrew may be familiar. It's a package manager used to help out when installing software. 
   
   Install homebrew by pasting `/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"` in the terminal.
   
@@ -44,7 +44,7 @@ Git is a kind of SCM (source code management) software. You can use it to track 
   You will then be prompted to enter a few more commands to add HomeBrew to your PATH. This makes them available in your terminal. These are slighlty different per computer, so copy and paste the commands that you are prompted with. 
   
   
-3. Install VS code: https://code.visualstudio.com/
+3. [Install VS code](https://code.visualstudio.com/)
 
 VS code is an IDE (interactive development environment) that has lots of cool tools to help you manage your website. You can navigate files and push directly to Github if you like. 
 
@@ -69,7 +69,13 @@ Try: https://themes.gohugo.io/themes/hugo-theme-jane/
 
 # Step 3: Make a new github repo 
 
-Make a github repo (main.github.io or main/thing.github.io)
+Make a github repo to host your site. You have two options for the URL that your website will be hosted under: either <username>.github.io or <username>.github.io/<repository-name>. Either is great depending on your usage, but let's try out hosting via your main URL for now. 
+  
+  Name the new repository <username>.github.io. 
+  
+  
+  
+  
 
 
 
