@@ -3,8 +3,10 @@ This repository contains a tutorial for making a personal research website with 
 
 [^1]: Static websites host stable content that doesn't change unless you update it.
 
-## Acknowledgements: 
+
+# Acknowledgements: 
 This repository was adapted from [Hansen Johnson's Hugo Demo repo](https://github.com/hansenjohnson/hugo-demo) with supplementation from  [4BES.NL](https://4bes.nl/2021/08/29/create-a-website-with-hugo-and-github-pages/). 
+
 
 # Why make a research website as an academic?
 - Share your work
@@ -19,6 +21,7 @@ Make use of one of Hugo’s free templates and insert your content (contact info
 # Example: My Hugo Website via the [Avicennia theme](https://github.com/hadisinaee/avicenna)
 
 [alburycatalina.github.io/me](alburycatalina.github.io/me)
+
 
 # Let's Get Started. You will need:
 - Internet connection
@@ -55,7 +58,17 @@ Make a github repo to host your site. You have two options for the URL that your
   
  Name the new repository (your username).github.io. You should tick the "add a README file" box and select whether your repository will be public or private (private repos are restricted to Github pro, which available at no cost to students). 
  
- Once you've created the repository, you can clone it to your computer with command line. 
+ Once you've created the repository, you can [clone it to your computer](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository) with command line. This creates a local copy of the repo on your computer. 
+ 
+ Hit the green code button in the top right corner of the github repository and copy the link to clone with HTTPS.
+ 
+Make a folder for your website and change the terminal directory to it.
+ 
+ In terminal, type `git clone` and paste in the copied URL. 
+ 
+ For example: `$ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY`
+ 
+ If you open the folder that you cloned your repo to, you should see the README file. 
   
   
   
