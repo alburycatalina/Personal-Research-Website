@@ -1,5 +1,5 @@
 # Building a Personal Research Website with Github and Hugo
-This repository contains a tutorial for making a personal research website with Github and Hugo. Hugo is a framwork that provides static [^1] website themes. 
+This repository contains a tutorial for making a personal research website with Github and Hugo. Hugo is a framework that provides static [^1] website themes. This method is great because Hugo website are (1) free and customizable and (2) come together suprisingly quickly. Hosting a personal research website is a great spot to present yourself professionally as a scientist, aggregate your contact information and projects, and network. 
 
 [^1]: Static websites host stable content that doesn't change unless you update it.
 
@@ -36,7 +36,7 @@ Make use of one of Hugo’s free templates and insert your content (contact info
 
 Git is a kind of SCM (source code management) software. You can use it to track and finalize changes in code. Github is a place to store this version control information on the internet. Git is installed by default on most Mac and Linux machines. 
 
-2. [Install hugo](https://gohugo.io/getting-started/installing/). This can be done in a few ways, but an easy way is via homebrew if using a mac. 
+2. [Install hugo](https://gohugo.io/getting-started/installing/). This can be done in a few ways, but an easy way is via Homebrew if using a Mac. 
   
   With homebrew: https://brew.sh/. If you have experience working with python or ruby, Homebrew may be familiar. It's a package manager used to help out when installing software. 
   
