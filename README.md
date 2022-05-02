@@ -99,7 +99,7 @@ From Cactus' info page, we can use the following code to add the theme to our we
 # Step 4: Edit Theme & Preview
 
 
-Most sites will allow most significant changes to be done in the `config.toml` file.
+Many sites will allow the majority of significant changes to be done in the `config.toml` file.
 In the `config.toml` file, you will need to change the publishDir command to docs, as in the following line. It is set by default to public by default. 
 
 `publishDir = "docs"`
