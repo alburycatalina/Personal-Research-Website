@@ -10,7 +10,7 @@ This repository was adapted from [Hansen Johnson's Hugo Demo repo](https://githu
 - Aggregate information (publications, resources, contact info) in one place
 
 
-## How?
+# How?
 Make use of one of Hugo’s free templates and insert your content (contact information, project links, blogs). Then, host your newly-minted site on Github Pages and push updates with Git as needed. 
 
 
