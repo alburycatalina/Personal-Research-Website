@@ -4,24 +4,24 @@ This repository contains a tutorial for making a personal research website with 
 [^1]: Static websites host stable content that doesn't change unless you update it.
 
 
-## Acknowledgements
-This repository was adapted from [Hansen Johnson's Hugo Demo repo](https://github.com/hansenjohnson/hugo-demo) with supplementation from  [4BES.NL](https://4bes.nl/2021/08/29/create-a-website-with-hugo-and-github-pages/). 
 
-
-# Why make a research website as an academic?
+#### Why make a research website as an academic?
 - Share your work
 - Aggregate information (publications, resources, contact info) in one place
 - Make yourself easy to find
 - Connect with potential collaborators
 
 
-# How?
+#### Example: My Hugo Website via the [Avicennia theme](https://github.com/hadisinaee/avicenna)
+[alburycatalina.github.io/me](alburycatalina.github.io/me)
+
+#### How?
 Make use of one of Hugo’s free templates and insert your content (contact information, project links, blogs). Then, host your newly-minted site on Github Pages and push updates with Git as needed. 
 
+#### Acknowledgements
+This repository was adapted from [Hansen Johnson's Hugo Demo repo](https://github.com/hansenjohnson/hugo-demo) with supplementation from  [4BES.NL](https://4bes.nl/2021/08/29/create-a-website-with-hugo-and-github-pages/). 
 
-# Example: My Hugo Website via the [Avicennia theme](https://github.com/hadisinaee/avicenna)
 
-[alburycatalina.github.io/me](alburycatalina.github.io/me)
 
 
 # Let's Get Started. You will need:
@@ -127,13 +127,13 @@ It can take a few minutes for published changes in your Github repo to be reflec
 
 # Step 6: Stage, Commit, and Push to Update
 
-In the future, edit website files and use the following commands to stage, commit, and push  edits to the Github directory. 
+In the future, edit website files in VSCode and use the following commands in terminal to stage, commit, and push  edits to the Github directory. 
 
--`git add .` stages everything for commit
+-`git add .` Stages everything for commit. You can modify this command to only change certain files (ex: `git add myfolder`). 
 
 -`git commit -m "Message that describes what this change does"` Gives you a spot to comment on the change you made
 
--`git push -u origin master` "Pushes" the final changes to Github. 
+-`git push -u origin main` "Pushes" the final changes to Github in the main branch. 
 
 Enjoy your new website :-)
 
