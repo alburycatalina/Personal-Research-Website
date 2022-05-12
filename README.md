@@ -129,9 +129,11 @@ It can take a few minutes for published changes in your Github repo to be reflec
 
 In the future, edit website files and use the following commands to stage, commit, and push  edits to the Github directory. 
 
-*`git add .` stages everything for commit
-*`git commit -m "Message that describes what this change does"` Gives you a spot to comment on the change you made
-*`git push -u origin master` "Pushes" the final changes to Github. 
+-`git add .` stages everything for commit
+
+-`git commit -m "Message that describes what this change does"` Gives you a spot to comment on the change you made
+
+-`git push -u origin master` "Pushes" the final changes to Github. 
 
 Enjoy your new website :-)
 
