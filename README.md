@@ -1,5 +1,5 @@
 # Building a Personal Research Website with Github and Hugo
-This repository contains a tutorial for making a personal research website with Github and Hugo. Hugo is a framework that provides static [^1] website themes. This method is great because Hugo website are (1) free and customizable and (2) come together suprisingly quickly. Hosting a personal research website is a great spot to present yourself professionally as a scientist, aggregate your contact information, and network with potential collaborators. 
+This repository contains a tutorial for making a personal research website with Github and Hugo. Hugo is a framework that provides static [^1] website themes. This method is great because Hugo website are (1) free and customizable and (2) come together suprisingly quickly. Hosting a personal research website is a great way to present yourself professionally as a scientist, aggregate your contact information, and network with potential collaborators. 
 
 [^1]: Static websites host stable content that doesn't change unless you update it.
 
