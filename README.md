@@ -89,7 +89,7 @@ In terminal, paste `hugo new site .\ --force`. You will see that hugo creates a 
 
 Hugo has a wealth of user created website themes that you can browse [here](https://themes.gohugo.io/). Most come with great guides on how to use them. 
 
-Let's try out the [Cactus theme](https://themes.gohugo.io/themes/hugo-theme-cactus/) as an example. Head to the link, click the yellow download button. This will take you to the theme's github page with instructions. 
+Let's try out the [Cactus theme](https://themes.gohugo.io/themes/hugo-theme-cactus/) as an example. Head to the link, click the yellow download button. This will take you to the theme's github page with instructions and documentation. 
 
 From Cactus' info page, we can use the following code to add the theme to our website:
 
@@ -99,7 +99,7 @@ From Cactus' info page, we can use the following code to add the theme to our we
 # Step 4: Edit Theme & Preview
 
 
-Many sites will allow the majority of significant changes to be done in the `config.toml` file.
+Many themes will allow the majority of significant changes to be done in the `config.toml` file.
 In the `config.toml` file, you will need to change the publishDir command to docs, as in the following line. It is set by default to public by default. 
 
 `publishDir = "docs"`
