@@ -50,7 +50,7 @@ You will then be prompted to enter a few more commands to add HomeBrew to your P
   
 **3. [Install VS code](https://code.visualstudio.com/)**
 
-VS code is an IDE (interactive development environment) that has lots of cool tools to help you manage your website. You can navigate files and push directly to Github if you like. Visit their website link above and download the desktop software. 
+VS code is an IDE (interactive development environment) that has lots of cool tools to help you manage your website. You can navigate files and push directly to Github here if you like. Visit their website link above and download the desktop software. 
 
 
 # Step 2: Make a New Github Repository (AKA "repo") 
