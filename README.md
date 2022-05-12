@@ -114,7 +114,7 @@ You can see what the site looks like locally by running  `Hugo server -D`
 
 The return will be a localhost URL, which you can preview in your browser. 
 
-# Step 5: Commit & Publish
+# Step 5: Publish!
 
 When the website is complete, host it on your Github page and share the link with your friends, family, colleagues, and enemies. 
 
@@ -122,14 +122,18 @@ In the Github repo, go to Settings > Pages > Change "Source" to "Main." If done 
 
 Finalize the page by simply running `hugo` in your website directory. 
 
-It can take 5-10 minutes for published changes in your Github repo to be reflected in the live page. 
-
-In the future, edit website files and use the follwoing commands to push and commit website edits to the directory. 
-
-`git commit -A`
-`git push -u origin master`
+It can take a few minutes for published changes in your Github repo to be reflected in the live page. 
 
 
+# Step 6: Stage, Commit, and Push to Update
+
+In the future, edit website files and use the following commands to stage, commit, and push  edits to the Github directory. 
+
+`git add .` stages everything for commit
+`git commit -m "Message that describes what this change does"` Gives you a spot to comment on the change you made
+`git push -u origin master` "Pushes" the final changes to Github. 
+
+Enjoy your new website :-)
 
 
 
