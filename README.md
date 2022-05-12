@@ -4,7 +4,7 @@ This repository contains a tutorial for making a personal research website with 
 [^1]: Static websites host stable content that doesn't change unless you update it.
 
 
-# Acknowledgements: 
+## Acknowledgements
 This repository was adapted from [Hansen Johnson's Hugo Demo repo](https://github.com/hansenjohnson/hugo-demo) with supplementation from  [4BES.NL](https://4bes.nl/2021/08/29/create-a-website-with-hugo-and-github-pages/). 
 
 
@@ -116,7 +116,7 @@ The return will be a localhost URL, which you can preview in your browser.
 
 # Step 5: Commit & Publish
 
-When the website is complete, host it on your Github page and share the link to your friends, family, colleagues, and enemies. 
+When the website is complete, host it on your Github page and share the link with your friends, family, colleagues, and enemies. 
 
 In the Github repo, go to Settings > Pages > Change "Source" to "Main." If done correctly, you should get a message along the lines of "Your site is ready to be published at https://username.github.io. **Successs!**
 
