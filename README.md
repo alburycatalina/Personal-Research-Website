@@ -13,7 +13,7 @@ This repository contains a tutorial for making a personal research website with 
 
 
 #### Example: My Hugo Website via the [Avicennia theme](https://github.com/hadisinaee/avicenna)
-[alburycatalina.github.io/me](alburycatalina.github.io/me)
+[alburycatalina.github.io/me](https://alburycatalina.github.io/me/)
 
 #### How?
 Make use of one of Hugo’s free templates and insert your content (contact information, project links, blogs). Then, host your newly-minted site on Github Pages and push updates with Git as needed. 
